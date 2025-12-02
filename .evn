@@ -1,0 +1,3 @@
+OPENAI_API_KEY=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
+DATABASE_URL=C:\govt-schemes-chatbot\schemes.db
+FLASK_ENV=development

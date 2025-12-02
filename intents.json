@@ -1,0 +1,200 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
+        "namaste", "hello there", "hi there", "hey there", "howdy"
+      ],
+      "responses": [
+        "Hello! I'm your Government Schemes Assistant. How can I help you today?",
+        "Hi there! I can help you find government schemes. What are you looking for?",
+        "Namaste! I'm here to help you discover government schemes. What do you need?"
+      ]
+    },
+    {
+      "tag": "schemecategories",
+      "patterns": [
+        "categories", "scheme categories", "list categories", "all categories",
+        "what categories are available", "show me categories", "types of schemes",
+        "available categories", "different categories", "categories of schemes",
+        "what types of schemes", "scheme types", "program categories",
+        "list all categories", "show categories", "category list",
+        "યોજનાની કેટેગરી", "બધી કેટેગરી", "કેટેગરી", "યોજના પ્રકાર"
+      ],
+      "responses": [
+        "Available Scheme Categories:\n\n1) 🎓 Education Schemes (12 schemes)\n2) 🌾 Agriculture & Farming (15 schemes)\n3) 🏥 Healthcare & Medical (14 schemes)\n4) 🏠 Housing & Shelter (8 schemes)\n5) 👩 Women Empowerment (10 schemes)\n6) 💼 Employment & Jobs (9 schemes)\n7) 🏢 Business & Startup (11 schemes)\n8) 👴 Senior Citizens (7 schemes)\n9) 💻 Digital Services (6 schemes)\n10) 💰 Financial Inclusion (8 schemes)\n11) 🏘️ Rural Development (9 schemes)\n12) ⚡ Energy & Solar (5 schemes)\n\nTotal: 114+ Government Schemes Available!\n\nWhich category interests you? You can ask about specific schemes like 'PM KISAN' or 'Ayushman Bharat'."
+      ]
+    },
+    {
+      "tag": "sarva_shiksha_abhiyan",
+      "patterns": [
+        "sarva shiksha abhiyan", "ssa", "samagra shiksha", "universal education",
+        "elementary education", "free education", "school education scheme",
+        "what is sarva shiksha", "details of ssa", "sarva shiksha yojana",
+        "સર્વ શિક્ષા અભિયાન", "એસએસએ", "સમગ્ર શિક્ષા"
+      ],
+      "responses": [
+        "🎓 Sarva Shiksha Abhiyan (SSA) / Samagra Shiksha\n\n📋 Objective: Universalization of elementary education for children 6-14 years\n\n💰 Benefits:\n• Free and compulsory education\n• Free textbooks and uniforms\n• School infrastructure development\n• Teacher training programs\n• Special focus on girls and disadvantaged groups\n\n📊 Coverage:\n• 98%+ enrollment coverage nationwide\n• 15 lakh+ schools covered\n• 19 crore+ children benefited\n\n🎯 Eligibility: All children in age group 6-14 years\n\n📝 Application: Through state education departments and school authorities\n\n🌐 Official Website: https://ssa.nic.in"
+      ]
+    },
+    {
+      "tag": "midday_meal_scheme",
+      "patterns": [
+        "midday meal", "school lunch", "free lunch", "midday meal scheme",
+        "school meal", "nutrition scheme", "mdm scheme",
+        "what is midday meal", "midday meal details", "school food",
+        "મધ્યાન્હ ભોજન", "સ્કૂલ લંચ", "મફત લંચ"
+      ],
+      "responses": [
+        "🍛 Midday Meal Scheme\n\n📋 Objective: Improve nutritional status and school attendance\n\n💰 Benefits:\n• Free nutritious lunch containing 300 calories and 8-12g protein\n• Seasonal fruits and vegetables\n• Fortified foods for micronutrients\n\n📊 Coverage:\n• 120+ million students daily\n• 11.6 lakh+ schools covered\n• 15-20% improvement in attendance\n\n🎯 Eligibility: All students in government and government-aided schools\n\n🏢 Implementation: Through school management committees\n\n💵 Budget: ₹11,000 crore annually\n\n🌐 Official Website: https://middaymeal.nic.in"
+      ]
+    },
+    {
+      "tag": "pm_kisan",
+      "patterns": [
+        "pm kisan", "pradhan mantri kisan", "kisan samman nidhi",
+        "pm kisan scheme", "farmer income support", "6000 rupees farmer",
+        "kisan yojana", "pmkisan", "farmer financial help",
+        "પીએમ કિસાન", "પ્રધાનમંત્રી કિસાન", "કિસાન સમ્માન નિધિ"
+      ],
+      "responses": [
+        "🌾 PM-KISAN Samman Nidhi\n\n📋 Objective: Provide income support to farmer families\n\n💰 Benefits:\n• ₹6,000 per year in 3 equal installments of ₹2,000\n• Direct Benefit Transfer to bank accounts\n• No middlemen involved\n\n📊 Coverage:\n• 14 crore+ farmer families covered\n• ₹2.42 lakh crore+ disbursed\n• All states and UTs participating\n\n🎯 Eligibility:\n• All landholding farmer families\n• Excludes institutional landholders\n• Excludes retired pensioners with monthly pension > ₹10,000\n\n📝 Application:\n• Through Common Service Centers (CSC)\n• Online through PM-KISAN portal\n• Through state agriculture departments\n\n🌐 Official Website: https://pmkisan.gov.in"
+      ]
+    },
+    {
+      "tag": "kisan_credit_card",
+      "patterns": [
+        "kisan credit card", "kcc", "farmer credit", "crop loan",
+        "agriculture loan", "kisan card", "farm credit",
+        "what is kcc", "kisan credit card details", "farm loan scheme",
+        "કિસાન ક્રેડિટ કાર્ડ", "કેસીસી", "ખેડૂત લોન"
+      ],
+      "responses": [
+        "💳 Kisan Credit Card (KCC)\n\n📋 Objective: Provide affordable credit to farmers\n\n💰 Benefits:\n• Interest rate: 7% (4% after interest subvention)\n• Credit limit based on land holding and crop pattern\n• Covers crop loans, emergency funds, consumption needs\n• Insurance cover included\n\n📊 Coverage:\n• 7 crore+ cards issued\n• ₹8 lakh crore+ credit disbursed\n• All banks participating\n\n🎯 Eligibility:\n• All farmers - individual/joint borrowers\n• Tenant farmers, oral lessees, sharecroppers\n• Self Help Groups (SHGs)\n\n📝 Application:\n• Through any bank branch\n• Required documents: Land records, ID proof, photos\n• Processing within 2 weeks\n\n🔄 Repayment: Flexible up to 12 months with grace period"
+      ]
+    },
+    {
+      "tag": "ayushman_bharat",
+      "patterns": [
+        "ayushman bharat", "pm jay", "modi care", "health insurance",
+        "5 lakh health cover", "ayushman bharat yojana", "pmjay",
+        "what is ayushman bharat", "health scheme 5 lakh", "medical insurance",
+        "આયુષ્માન ભારત", "પીએમ જય", "૫ લાખ હેલ્થ ઇન્શુરન્સ"
+      ],
+      "responses": [
+        "🏥 Ayushman Bharat PM-JAY\n\n📋 Objective: Provide health cover to poor and vulnerable families\n\n💰 Benefits:\n• ₹5 lakh per family per year for secondary and tertiary care\n• Cashless treatment in empaneled hospitals\n• 1,574 treatment packages including surgery, medicine\n• Pre-existing diseases covered from day one\n\n📊 Coverage:\n• 10.74 crore poor families (50 crore+ beneficiaries)\n• 25,000+ empaneled hospitals\n• ₹50,000 crore+ claims authorized\n\n🎯 Eligibility:\n• Families included in SECC 2011 database\n• No restrictions on family size, age, or gender\n• Automatic inclusion based on deprivation criteria\n\n📝 Application:\n• Check eligibility on PM-JAY website\n• Through Ayushman Mitra at hospitals\n• e-Card issued for cashless treatment\n\n🌐 Official Website: https://pmjay.gov.in"
+      ]
+    },
+    {
+      "tag": "jan_aushadhi",
+      "patterns": [
+        "jan aushadhi", "generic medicine", "cheap medicine", "jan aushadhi kendra",
+        "affordable medicine", "pm bjp", "pradhan mantri jan aushadhi",
+        "what is jan aushadhi", "low cost medicine", "generic drugs",
+        "જન ઔષધી", "સસ્તી દવા", "જન ઔષધી કેન્દ્ર"
+      ],
+      "responses": [
+        "💊 Pradhan Mantri Jan Aushadhi Pariyojana\n\n📋 Objective: Provide quality generic medicines at affordable prices\n\n💰 Benefits:\n• 50-90% cheaper than branded medicines\n• 900+ medicines and 154 surgical items\n• All medicines comply with WHO-GMP standards\n• Same quality as branded drugs\n\n📊 Coverage:\n• 8,000+ Jan Aushadhi Kendras nationwide\n• ₹1,000 crore+ annual sales\n• 8 crore+ beneficiaries monthly\n\n🎯 Eligibility: All citizens can purchase from Jan Aushadhi Kendras\n\n💼 Entrepreneurship:\n• ₹50,000 initial financial assistance\n• 15% additional margin on sales\n• Monthly income potential: ₹25,000-₹50,000\n\n📍 Location: Find nearest kendra on official website\n\n🌐 Official Website: https://janaushadhi.gov.in"
+      ]
+    },
+    {
+      "tag": "pm_awas_yojana",
+      "patterns": [
+        "pm awas yojana", "pradhan mantri awas yojana", "housing scheme",
+        "pmay", "home scheme", "house for poor", "affordable housing",
+        "what is pmay", "pm housing scheme", "pradhan mantri house",
+        "પીએમ આવાસ યોજના", "ઘર યોજના", "મકાન યોજના"
+      ],
+      "responses": [
+        "🏠 Pradhan Mantri Awas Yojana (PMAY)\n\n📋 Objective: 'Housing for All' by 2022\n\n🏙️ PMAY - Urban:\n• ₹2.5 lakh subsidy for EWS under CLSS\n• 1.12 crore houses sanctioned\n• Interest subsidy: 6.5% for 20 years\n\n🏡 PMAY - Rural:\n• ₹1.3 lakh assistance per unit in plain areas\n• ₹1.5 lakh assistance in hilly/difficult areas\n• 2.52 crore houses completed\n• Basic amenities: toilet, LPG, electricity, water\n\n💰 Financial Benefits:\n• Credit Linked Subsidy Scheme (CLSS)\n• Beneficiary-led construction\n• Affordable housing in partnership\n\n🎯 Eligibility:\n• EWS (Income up to ₹3 lakh)\n• LIG (Income ₹3-6 lakh)\n• MIG (Income ₹6-18 lakh)\n• Women ownership mandatory\n\n📝 Application: Through official PMAY website or Common Service Centers\n\n🌐 Official Website: https://pmaymis.gov.in"
+      ]
+    },
+    {
+      "tag": "ujjwala_yojana",
+      "patterns": [
+        "ujjwala", "pmuy", "free gas", "lpg connection", "cooking gas",
+        "pradhan mantri ujjwala", "ujjwala yojana", "gas connection free",
+        "what is ujjwala", "free lpg", "clean cooking fuel",
+        "ઉજ્જ્વલા", "ફ્રી ગેસ", "એલપીજી કનેક્શન"
+      ],
+      "responses": [
+        "🔥 Pradhan Mantri Ujjwala Yojana (PMUY)\n\n📋 Objective: Provide free LPG connections to women from poor families\n\n💰 Benefits:\n• Free LPG connection (security deposit for cylinder and regulator)\n• First refill and hotplate included\n• No charges for documents and installation\n• EMI facility for stove and first refill\n\n📊 Coverage:\n• 9 crore+ beneficiaries\n• 99% LPG coverage nationwide\n• ₹12,000 crore+ subsidy provided\n\n🎯 Eligibility:\n• Women above 18 years from BPL families\n• No LPG connection in household\n• SC/ST households, beneficiaries of various schemes\n\n📝 Required Documents:\n• BPL ration card\n• Aadhaar card\n• Bank account details\n• Proof of identity and address\n\n📞 Application: Through nearest LPG distributor or online portal\n\n🌐 Official Website: https://pmuy.gov.in"
+      ]
+    },
+    {
+      "tag": "mudra_yojana",
+      "patterns": [
+        "mudra", "mudra loan", "mudra yojana", "business loan",
+        "pradhan mantri mudra", "small business loan", "startup loan",
+        "what is mudra", "mudra scheme", "micro business loan",
+        "મુદ્રા", "મુદ્રા લોન", "બિઝનેસ લોન"
+      ],
+      "responses": [
+        "💼 Pradhan Mantri MUDRA Yojana (PMMY)\n\n📋 Objective: Provide funding to non-corporate, non-farm small enterprises\n\n💰 Loan Categories:\n• Shishu: Loans up to ₹50,000\n• Kishor: Loans from ₹50,001 to ₹5 lakh\n• Tarun: Loans from ₹5,00,001 to ₹10 lakh\n\n📊 Coverage:\n• 34 crore+ loans sanctioned\n• ₹18 lakh crore+ disbursed\n• 68% loans to women entrepreneurs\n• 51% loans to SC/ST/OBC beneficiaries\n\n🎯 Eligibility:\n• Non-farm income generating activities\n• Manufacturing, trading, service sector\n• Small businesses, shopkeepers, vendors\n• Individual entrepreneurs and enterprises\n\n🏦 Participating Institutions:\n• All public and private sector banks\n• Regional Rural Banks\n• Cooperative Banks\n• Micro Finance Institutions\n\n📝 Application: Through any bank branch with business plan and KYC documents\n\n🌐 Official Website: https://www.mudra.org.in"
+      ]
+    },
+    {
+      "tag": "sukanya_samriddhi",
+      "patterns": [
+        "sukanya samriddhi", "girl child scheme", "sukanya yojana",
+        "girl savings", "daughter scheme", "sukanya samriddhi account",
+        "what is sukanya", "girl child savings", "ssy scheme",
+        "સુકન્યા સમૃદ્ધિ", "બેટી બચાવો", "બેટી યોજના"
+      ],
+      "responses": [
+        "👧 Sukanya Samriddhi Yojana (SSY)\n\n📋 Objective: Secure future of girl children through financial planning\n\n💰 Benefits:\n• Interest rate: 8.2% per annum (current)\n• Tax benefits under Section 80C\n• Higher interest rate than other small savings\n• Complete tax-free returns\n\n💵 Investment:\n• Minimum deposit: ₹250 per year\n• Maximum deposit: ₹1.5 lakh per year\n• Account valid for 21 years\n\n📊 Maturity Benefits:\n• Maturity amount after 21 years\n• Can be closed after marriage if girl is above 18\n• Partial withdrawal after 18 years for education/marriage\n\n🎯 Eligibility:\n• Girl child below 10 years\n• Maximum two accounts per family\n• Natural or legal guardian can open account\n\n📝 Application:\n• Through post offices or authorized banks\n• Required: Birth certificate, address proof, ID proof\n• Minimum one deposit per year mandatory\n\n🏦 Available at: Post Offices, SBI, other nationalized banks"
+      ]
+    },
+    {
+      "tag": "atmanirbhar_bharat",
+      "patterns": [
+        "atmanirbhar bharat", "self reliant india", "atma nirbhar",
+        "self sufficiency", "make in india", "indigenous manufacturing",
+        "what is atmanirbhar", "self reliance", "economic package",
+        "આત્મનિર્ભર ભારત", "સ્વદેશી", "મેક ઇન ઇન્ડિયા"
+      ],
+      "responses": [
+        "🇮🇳 Atmanirbhar Bharat Abhiyan\n\n📋 Objective: Make India self-reliant in various sectors\n\n💰 Economic Package: ₹20 lakh crore (10% of GDP)\n\n🎯 Five Pillars:\n1) Economy - Quantum jump not incremental change\n2) Infrastructure - Modern India identity\n3) System - Technology-driven development\n4) Demography - World's largest democracy\n5) Demand - Utilize power of demand and supply\n\n🏭 Key Sectors Focus:\n• Manufacturing and supply chain\n• MSME sector development\n• Agriculture and allied activities\n• Defense manufacturing\n• Electronics and technology\n\n💼 Major Initiatives:\n• Production Linked Incentive (PLI) schemes\n• Phased Manufacturing Programme\n• Import substitution\n• Export promotion\n• Skill development\n\n📊 Impact:\n• 1.5 lakh+ MSMEs benefited\n• ₹3 lakh crore+ additional production\n• 10 lakh+ new jobs created\n• 20+ sectors covered under PLI\n\n🌐 Official Portal: https://www.mygov.in/atmanirbharbharat/"
+      ]
+    },
+    {
+      "tag": "digital_india",
+      "patterns": [
+        "digital india", "digital services", "e governance",
+        "digital initiatives", "online services", "digital india mission",
+        "what is digital india", "digital transformation", "e services",
+        "ડિજિટલ ઇન્ડિયા", "ઈ ગવર્નન્સ", "ઓનલાઈન સર્વિસ"
+      ],
+      "responses": [
+        "💻 Digital India Mission\n\n📋 Objective: Transform India into digitally empowered society\n\n🎯 Vision Areas:\n• Digital Infrastructure as utility to every citizen\n• Governance & services on demand\n• Digital empowerment of citizens\n\n🚀 Key Initiatives:\n\n1) Digital Infrastructure:\n• Aadhaar - 135 crore+ enrolled\n• BharatNet - 2.5 lakh+ gram panchayats connected\n• Common Service Centers - 4 lakh+ centers\n\n2) Digital Services:\n• UMANG - 2000+ government services\n• DigiLocker - 562 crore+ documents stored\n• e-Hospital - 420+ hospitals onboarded\n\n3) Digital Empowerment:\n• Digital Literacy - 6 crore+ citizens trained\n• Internet Saathi - 30 lakh+ rural women trained\n• StartUp India - 80,000+ startups recognized\n\n📊 Achievements:\n• 80 crore+ internet users\n• 120 crore+ mobile connections\n• 40 crore+ UPI transactions monthly\n• 75% population covered by broadband\n\n🌐 Official Website: https://digitalindia.gov.in"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "take care", "bye bye", "see you later",
+        "thanks bye", "thank you bye", "that's all", "that's it", "done",
+        "finished", "exit", "quit", "stop", "end"
+      ],
+      "responses": [
+        "Goodbye! Feel free to ask if you need more information about government schemes.",
+        "Take care! Remember I'm here to help with government schemes anytime.",
+        "See you later! Don't hesitate to return if you have more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thank you very much", "thanks a lot",
+        "appreciate it", "great help", "helpful", "good job", "well done",
+        "આભાર", "ખૂબ આભાર", "ધન્યવાદ", "શુક્રિયા"
+      ],
+      "responses": [
+        "You're welcome! Happy to help with government schemes.",
+        "Glad I could help! Let me know if you need more information.",
+        "You're welcome! Feel free to ask about any other schemes."
+      ]
+    }
+  ]
+}
